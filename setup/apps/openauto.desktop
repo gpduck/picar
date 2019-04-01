@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=OpenAuto
+Exec=sudo /home/pi/openauto/bin/autoapp
+Type=Application
+Icon=androidauto-icon

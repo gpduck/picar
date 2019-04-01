@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Shutdown
+Exec=sudo shutdown now
+Type=Application
+Icon=power-icon

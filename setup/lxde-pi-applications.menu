@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-pi-applications.menu</MergeFile>
+	<DefaultLayout inline="false">
+		<Merge type="menus"/>
+		<Merge type="files"/>
+	</DefaultLayout>
+	<Menu>
+		<Name>car</Name>
+		<Directory>car.directory</Directory>
+		<Include>
+			<Filename>openauto.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+	<Layout>
+		<Merge type="menus"/>
+		<Menuname>Development</Menuname>
+		<Menuname>Education</Menuname>
+		<Menuname>Office</Menuname>
+		<Menuname>Internet</Menuname>
+		<Menuname>Multimedia</Menuname>
+		<Menuname>Graphics</Menuname>
+		<Menuname>Games</Menuname>
+		<Menuname>Other</Menuname>
+		<Menuname>System</Menuname>
+		<Menuname>Accessories</Menuname>
+		<Menuname>Universal Access</Menuname>
+		<Separator/>
+		<Menuname>Help</Menuname>
+		<Separator/>
+		<Menuname>DesktopSettings</Menuname>
+		<Merge type="files"/>
+	</Layout>
+</Menu>

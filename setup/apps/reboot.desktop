@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Reboot
+Exec=sudo reboot
+Type=Application
+Icon=restart-icon

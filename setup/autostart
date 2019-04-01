@@ -1,0 +1,5 @@
+@xset s noblank
+@xset s off
+@xset -dpms
+@/usr/bin/twofing
+/home/pi/run.ps1
