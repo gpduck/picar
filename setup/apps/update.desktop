@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=true
+Name=Update
+Exec=/home/pi/update.ps1
+Type=Application
+Icon=update-icon
